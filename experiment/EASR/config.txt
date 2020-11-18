@@ -1,0 +1,2668 @@
+2020-11-18-22:29:16
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:22
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:22
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:22
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:22
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:29
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:29
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:29
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:29
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:45
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:45
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:45
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:45
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:53
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:58
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:58
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:58
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:29:58
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:30:05
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:30:05
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:30:05
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:30:20
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:30:20
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:30:20
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:30:21
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:31:38
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:31:39
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:31:41
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:31:42
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_latest.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:03
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:09
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:09
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:09
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:09
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:16
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:16
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:16
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:16
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:30
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:30
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:31
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:38:31
+
+act: relu
+pre_train: X:\EASR\EASR_model_x4\EASR_CBAM_RIR_x4\model\model_best.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:39:53
+
+act: relu
+pre_train: pretrained_models\model_x4.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:39:54
+
+act: relu
+pre_train: pretrained_models\model_x4.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:39:56
+
+act: relu
+pre_train: pretrained_models\model_x4.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
+2020-11-18-22:39:57
+
+act: relu
+pre_train: pretrained_models\model_x4.pt
+extend: .
+n_feats: 64
+res_scale: 1
+shift_mean: True
+dilation: False
+precision: single
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 8
+n_resblocks: 16
+reduction: 16
+batch_size: 16
+input_size: 48
+scale: 4
+dir_train: G:\DIV2K\
+dir_test: G:\DIV2K\Test\
+dir_demo: ./Test_real_small/
+data_name: DIV2K_8
+demo_name: Real_16
+test_name: ['Set5', 'Set14', 'B100', 'Urban100']
+rgb_range: 1
+n_colors: 3
+test_only: True
+demo: False
+cpu: False
+n_GPUs: 1
+loss: 1*L1
+self_ensemble: False
+chop: False
+gan_k: 1
+test_every: 1000
+epochs: 300
+local_rank: -1
+seed: 1
+reset: False
+model_name: EASR
+lr: 0.0001
+decay: 200-400-600-800-1000
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+save: EASR
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+
